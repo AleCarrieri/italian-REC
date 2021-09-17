@@ -425,9 +425,6 @@ def render_page_content(pathname):
                     ]),
                 ], justify="center"),
                 ]),
-            generate_modal_consumer(),
-            generate_modal_producer(),
-            generate_modal_members(),
         ], fluid=True)
     elif pathname == "/page-1":
           return dbc.Container([
